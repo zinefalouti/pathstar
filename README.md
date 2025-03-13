@@ -23,7 +23,7 @@ This project implements a simple pathfinding algorithm using the A* search techn
 
 3. Import and call the `pathstar` function from your code:
     ```python
-    from pathfinding import pathstar, print_pathstar, viz_pathstar
+    from pathstar import pathstar, print_pathstar, viz_pathstar, generate_matrix
 
     # Example usage:
     M = generate_matrix(10, 10)
