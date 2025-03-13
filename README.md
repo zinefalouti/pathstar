@@ -41,8 +41,4 @@ The Pathstar library implements a pathfinding algorithm using the A* search tech
     - `print_pathstar(path)` prints the path step by step.
     - `viz_pathstar(M, path)` visualizes the path on the matrix using ASCII characters.
 
-## Tests
 
-Run tests with `pytest` to verify the correctness of the functions:
-```bash
-pytest
