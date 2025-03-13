@@ -1,4 +1,4 @@
-# Pathfinding with A* Algorithm and Matrix Visualization
+# Pathfinding with A* Algorithm Within a Large Matrix
 
 This project implements a simple pathfinding algorithm using the A* search technique to find the optimal path between a start position and a destination on a matrix with obstacles. It includes matrix generation, obstacle handling, and ASCII-based visualization of the path.
 
@@ -12,8 +12,8 @@ This project implements a simple pathfinding algorithm using the A* search techn
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/pathfinding.git
-    cd pathfinding
+    git clone https://github.com/yourusername/pathstar.git
+    cd pathstar
     ```
 
 2. Install dependencies (e.g., NumPy):
