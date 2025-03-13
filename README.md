@@ -1,12 +1,11 @@
 # Pathfinding with A* Algorithm Within a Large Matrix
 
-This project implements a simple pathfinding algorithm using the A* search technique to find the optimal path between a start position and a destination on a matrix with obstacles. It includes matrix generation, obstacle handling, and ASCII-based visualization of the path.
+The Pathstar library implements a pathfinding algorithm using the A* search technique to find the optimal path between a start position and a destination within a large matrix. It avoids looping through the entire matrix by using a scan function that extracts a smaller submatrix based on the start and destination positions.
 
 ## Features
 - **Matrix Generation**: Generates a random matrix with values between 0 and 9.
 - **A* Pathfinding**: Implements the A* search algorithm to find the shortest path avoiding obstacles.
 - **Visualization**: Prints the resulting path on the matrix using ASCII characters for easy visualization.
-- **Unit Tests**: Tests the functions using `pytest` for reliability.
 
 ## Usage
 
